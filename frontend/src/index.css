@@ -1,0 +1,124 @@
+/* --- Global Styles --- */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+/* --- Navbar --- */
+.navbar {
+  background: #222;
+  padding: 12px 0;
+  color: #fff;
+}
+
+.nav-container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nav-links a {
+  color: #ccc;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+}
+
+/* --- Table --- */
+table {
+  width: 100%;
+  background: #fff;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+/* --- Buttons --- */
+button {
+  background: #333;
+  color: white;
+  padding: 7px 15px;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* --- Inputs + Selects --- */
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+input:focus,
+select:focus {
+  border-color: #333;
+  outline: none;
+}
+
+/* --- Form Box --- */
+.form-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* --- Pagination --- */
+.pagination {
+  margin-top: 15px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+}
