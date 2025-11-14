@@ -16,7 +16,7 @@ A simple Office Management System built using Node.js, Express, MongoDB, and Rea
 ```
 cd backend
 npm install
-cp .env.example .env   # add your MongoDB URI
+# create .env file add PORT = 5000 and MONGODB_URI = your_MongoDB_URI
 npm run dev
 ```
 
